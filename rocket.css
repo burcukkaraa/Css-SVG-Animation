@@ -1,0 +1,495 @@
+#katman_1 {
+  margin: 10vh auto;
+  height: 70vh;
+}
+
+body {
+  background: black;
+}
+
+#rocket {
+  transform-origin: center;
+}
+
+#kanat2,
+#kanat1,
+#govde {
+  fill: rgb(253, 139, 9);
+  stroke: rgb(253, 139, 9);
+  stroke-width: 5px;
+}
+.planePath {
+  stroke: #d9dada;
+  stroke-width: 0.1%;
+  stroke-width: 0.5%;
+  stroke-dasharray: 1% 2%;
+  stroke-linecap: round;
+  fill: none;
+  animation-fill-mode: none;
+  visibility: hidden;
+}
+@keyframes draw {
+  0% {
+    opacity: 0;
+    stroke-dashoffset: -900;
+  }
+
+  50% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    opacity: 1;
+    stroke-dashoffset: 900;
+  }
+}
+
+#okgrup,
+#yuvarlakbutongrup {
+  animation: draw 2s linear;
+}
+
+#cloud1 {
+  fill: #ff8c00;
+  animation: cloud1anim 4s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cloud1anim {
+  0% {
+    /*transform: skewX(50px);*/
+  }
+  25% {
+    transform: translatex(20px);
+  }
+  75% {
+    /* //transform: skewX(0px); */
+    transform: translatex(-20px);
+  }
+  100% {
+  }
+}
+
+#cloud2 {
+  fill: #ff8c00;
+  animation: cloud2anim 5s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cloud2anim {
+  0% {
+  }
+  25% {
+    transform: translatex(-20px);
+  }
+  75% {
+    transform: translatex(20px);
+  }
+  100% {
+  }
+}
+#cloud3 {
+  fill: #ff8c00;
+  animation: cloud3anim 3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cloud3anim {
+  0% {
+  }
+  25% {
+    transform: translatex(-25px);
+  }
+  75% {
+    transform: translatex(40px);
+  }
+  100% {
+  }
+}
+
+#cloud4 {
+  fill: #ff8c00;
+  animation: cloud4anim 5s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cloud4anim {
+  0% {
+  }
+  25% {
+    transform: translatex(35px);
+  }
+  75% {
+    transform: translatex(-50px);
+  }
+  100% {
+  }
+}
+
+#cloud5 {
+  fill: #ff8c00;
+  animation: cloud5anim 4.5s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cloud5anim {
+  0% {
+  }
+  25% {
+    transform: translatex(40px);
+  }
+  75% {
+    transform: translatex(-25px);
+  }
+  100% {
+  }
+}
+
+#cloud6 {
+  fill: #ff8c00;
+  animation: cloud6anim 5.2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cloud6anim {
+  0% {
+  }
+  25% {
+    transform: translatex(10px);
+  }
+  75% {
+    transform: translatex(-20px);
+  }
+  100% {
+  }
+}
+
+#cloud7 {
+  fill: #ff8c00;
+  animation: cloud7anim 6.2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cloud7anim {
+  0% {
+  }
+  25% {
+    transform: translatex(-30px);
+  }
+  75% {
+    transform: translatex(30px);
+  }
+  100% {
+  }
+}
+
+#cloud8 {
+  fill: #ff8c00;
+  animation: cloud8anim 3.7s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cloud8anim {
+  0% {
+  }
+  25% {
+    transform: translatex(40px);
+  }
+  75% {
+    transform: translatex(-40px);
+  }
+  100% {
+  }
+}
+#cloud9 {
+  fill: #ff8c00;
+  animation: cloud9anim 4.3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cloud9anim {
+  0% {
+  }
+  25% {
+    transform: translatex(40px);
+  }
+  75% {
+    transform: translatex(-20px);
+  }
+  100% {
+  }
+}
+.st0 {
+  fill: #cccccc;
+  stroke: #000000;
+  stroke-width: 0.3;
+  stroke-miterlimit: 10;
+}
+.st1 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #ff4400;
+  stroke: #ff4400;
+}
+.st2 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #ffffff;
+}
+.st3 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #ffffff;
+}
+.st4 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 3.7266;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 22.926;
+}
+.st5 {
+  fill: #e6e6e6;
+  stroke: #333333;
+  stroke-width: 1;
+  stroke-miterlimit: 9.9996;
+}
+.st6 {
+  fill: #e6e6e6;
+  stroke: #333333;
+  stroke-width: 1;
+  stroke-miterlimit: 10.0008;
+}
+.st7 {
+  fill: #e6e6e6;
+  stroke: #333333;
+  stroke-miterlimit: 10;
+}
+.st8 {
+  fill: none;
+  stroke: #efb054;
+  stroke-width: 4;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st9 {
+  fill: #000000;
+}
+.st10 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st11 {
+  fill: #cccccc;
+  stroke: #000000;
+  stroke-width: 0.3;
+  stroke-miterlimit: 10;
+}
+.st12 {
+  fill: #e6e6e6;
+  stroke: #000000;
+  stroke-width: 0.3;
+  stroke-miterlimit: 10;
+}
+.st13 {
+  fill: white;
+  stroke: none;
+  stroke-width: 3.6107;
+  stroke-miterlimit: 10;
+}
+.st14 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 3.6107;
+  stroke-miterlimit: 10;
+}
+.st15 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+
+#line2,
+#line1,
+#roketline {
+  fill: orange;
+  stroke: orange;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 16.4975, 32.9951;
+}
+
+@keyframes draw2 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes fill {
+  from {
+    fill-opacity: 0;
+  }
+  to {
+    fill-opacity: 1;
+  }
+}
+
+#katman_1:hover polyline {
+  stroke-width: 3px;
+
+  fill-opacity: 0;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation-name: draw2, fill;
+  animation-fill-mode: forwards;
+  animation-duration: 5s, 5s;
+  animation-delay: 1s, 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite, initial;
+
+  transition: transform 2s ease-in-out;
+}
+
+.smoke {
+  animation: smoke 0.25s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+.delay-2 {
+  animation-delay: 0.06s;
+}
+
+.delay-3 {
+  animation-delay: 0.09s;
+}
+
+.delay-4 {
+  animation-delay: 0.19s;
+}
+
+@keyframes smoke {
+  from {
+    transform: scale(0.95);
+  }
+  to {
+    transform: scale(1.15);
+  }
+}
+
+polyline:hover {
+  stroke: orange;
+  stroke-width: 5px;
+  transform: translate3d(5px 2px, 0px);
+  animation-direction: alternate;
+  animation-iteration-count: infinite, initial;
+}
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+#arka {
+  height: 20px;
+  fill: #ed1c24;
+  stroke: #000000;
+  stroke-width: 2;
+}
+#burun {
+  fill: #ed1c24;
+  stroke: #000000;
+  stroke-width: 2;
+}
+#govde {
+  fill: #e6e6e6;
+  stroke: #000000;
+  stroke-width: 2;
+}
+#arkaduman,
+#solkanat,
+#sagkanat {
+  fill: #e6e6e6;
+  stroke: #000000;
+  stroke-width: 2;
+}
+#pencere {
+  fill: #1b1464;
+  stroke-width: 4;
+}
+#arkaduman {
+  fill: #808080;
+  stroke-width: 2;
+}
+
+#altkol {
+  transform: rotate(0deg);
+  transform-box: fill-box;
+  transform-origin: 84% 4%;
+  animation: altkolanim 12s ease 10s infinite normal none;
+}
+
+@keyframes altkolanim {
+  0.0% {
+  }
+  2% {
+    transform: rotate(-175deg);
+  }
+  3.5% {
+    transform: rotate(-140deg);
+  }
+  5% {
+    transform: rotate(-175deg);
+  }
+  6.5% {
+    transform: rotate(-140deg);
+  }
+  8% {
+    transform: rotate(-175deg);
+  }
+  10% {
+    transform: rotate(0deg);
+  }
+}
+
+#solgozbebek {
+  animation: eyes 12s ease infinite;
+  transform-origin: 84% 4%;
+}
+#saggozbebek {
+  animation: eyes 12s ease infinite;
+  transform-origin: 84% 4%;
+}
+
+@keyframes eyes {
+  0% {
+    transform: translateX(0px) translateY(-10px);
+  }
+
+  19.5% {
+    transform: translateX(15px) translateY(-10px);
+  }
+  32.5% {
+    transform: translateX(15px) translateY(0px);
+  }
+  58.5% {
+    transform: translateX(15px) translateY(-10px);
+  }
+
+  78% {
+    transform: translateX(15px) translateY(0px);
+  }
+  90% {
+    transform: translateX(15px) translateY(-5px);
+  }
+
+  100% {
+    transform: translateX(15px) translateY(-2px);
+  }
+}
